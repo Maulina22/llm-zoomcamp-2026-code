@@ -1,0 +1,18 @@
+[project]
+name = "llm-zoomcamp-2026-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "openai>=3.19.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+llm-zoomcamp-2026-code = "llm_zoomcamp_2026_code:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
